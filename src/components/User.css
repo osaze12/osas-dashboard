@@ -1,0 +1,85 @@
+.user__img img{
+    width: auto;
+    height: 50px;
+    border-radius: 50px;
+    border: 7px solid #70ccc8;
+   
+}
+.user__img{
+    margin-right: 10px;
+}
+.user__fullname{
+    color: #262a41;
+}
+.user__street{
+    color: #757887;
+    margin-top: 10px;
+    font-weight: bold;
+    font-style: italic;
+    font-size: .8em;
+}
+.user__contact p{
+    display: flex;
+    align-items: center;
+    color:#bbbcc5;
+    padding-right: 10px;
+    font-size: .7em;
+    font-weight: bold;
+}
+.user__contact p span{
+    margin-right: 4px;
+}
+.user__contact button{
+    border: none;
+    outline: none;
+    background: #30bbb5;
+    color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 2px 7px 20px #c8ebec;
+}
+.user__inner{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    /* display: flex;
+    align-items: center; */
+
+    background: #fcfcff;
+    box-shadow: 10px 10px 10px 7px #efeff7;
+    padding: 12px;
+    margin: 19px 0;
+    border-radius: 7px;
+    /* display: flex;
+    align-items: center;
+    justify-content: space-between; */
+}
+.user__contact{
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (max-width:952px){
+    .user__img{
+        margin-right: 15px;
+    }
+    
+}
+
+@media screen and (max-width:577px){
+    .user__details{
+        text-align: center;
+    }
+    .user__contact{
+        flex-direction: column;
+    }
+    .user__contact p{
+        display: block;
+        margin: 5px 0
+    }
+    .user__contact button{
+        padding: 1px 9px;
+    }
+
+}
